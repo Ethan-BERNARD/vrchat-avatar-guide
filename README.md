@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# VRChat Avatar Guide
 
-## Getting Started
+Guide interactif et plateforme de ressources pour la création, l'optimisation et l'intégration d'avatars 3D sur VRChat (Blender, Unity, SDK VRChat).
 
-First, run the development server:
+## Présentation du projet
+Ce projet a été développé dans le cadre d'une démarche de réalisation d'un guide complet à destination des créateurs d'avatars. Il permet d'accompagner les utilisateurs pas à pas, de la modélisation 3D initiale jusqu'à la mise en ligne du contenu en jeu, avec une attention particulière portée à l'optimisation pour les plateformes PC et Quest.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Stack Technique
+- Framework : Next.js (React)
+- Styles : Tailwind CSS
+- Base de données et Authentification : Supabase
+- Hébergement et Déploiement : Vercel
+- Gestion de version : Git / GitHub
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Documentation de conception
+L'ensemble des documents relatifs à la conception du site est disponible dans le dossier `docs/conception/` :
+- Arborescence et Maquettes : `docs/conception/README.md`
+- Charte Graphique : `docs/conception/charte-graphique.md`
+- Liste des Composants (UI Kit) : `docs/conception/composants.md`
+- Journal de bord : `docs/journal.md`
