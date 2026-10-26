@@ -15,3 +15,21 @@
 
 ## Difficultés / Incidents rencontrés :
 - **Problème avec l'application GitHub de Vercel :** Petit soucis au moment de relier le dépôt Github à Vercel qui demandait l'accès au Dépôt. La solution que j'ai choisi a été de lui donner accès à tous mes projets.
+
+---
+
+# Mission 4 : Arborescence, maquettes et charte graphique
+
+- **Date :** 26 octobre 2026
+- **Objectif :** Formaliser la phase de conception du site (arborescence, maquettes Figma, charte graphique et inventaire des composants).
+
+## Étapes réalisées :
+1. Exportation des maquettes wireframes au format PNG depuis Figma (vues Desktop et Mobile).
+2. Création de la branche de travail `docs/conception`.
+3. Structuration du dossier `docs/conception` et ajout des images d'illustration dans `docs/conception/images/`.
+4. Rédaction du fichier `README.md` (présentation de l'arborescence monopage, intégration des visuels et définition du parcours utilisateur).
+5. Rédaction du fichier `charte-graphique.md` (palette de couleurs et typographie).
+6. Rédaction du fichier `composants.md` (inventaire du UI kit et des composants React / Next.js).
+
+## Difficultés / Incidents rencontrés :
+- Exportation des visuels depuis Figma et gestion des noms de fichiers (suppression des espaces/caractères spéciaux pour éviter les bugs de liens Markdown).
